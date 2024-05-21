@@ -151,6 +151,8 @@ By understanding singularities and how they affect the Jacobian matrix, we can d
 # VI. Path and Trajectory Planning Utilizing GUI
 <div align="justify">
 
+Path Planning: Think of it as a map for the robot's end-effector, charting a safe and efficient course around obstacles while respecting the robot's workspace boundaries.
+
 
 </div>
 
