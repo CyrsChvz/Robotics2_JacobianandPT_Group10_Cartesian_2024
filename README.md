@@ -111,6 +111,9 @@ Coordinating a robotic arm with multiple joints requires understanding the relat
 This matrix takes a vector representing the velocities of each joint and transforms it into a vector representing the end-effector's velocities (both linear, like speed along an axis, and angular, like rotation). Each element in the Jacobian Matrix reflects how a specific joint's speed contributes to a particular component of the end-effector's movement. This knowledge is crucial for several reasons:
 
 -This matrix takes a vector representing the velocities of each joint and transforms it into a vector representing the end-effector's velocities (both linear, like speed along an axis, and angular, like rotation). Each element in the Jacobian Matrix reflects how a specific joint's speed contributes to a particular component of the end-effector's movement. This knowledge is crucial for several reasons:
+
+-The matrix also helps identify manipulator configurations where control becomes difficult. These are called singularities, and they occur when the Jacobian Matrix loses its ability to translate between joint and end-effector velocities. By analyzing the Jacobian Matrix, we can avoid these configurations and ensure smooth, controlled motion.
+
 </div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
