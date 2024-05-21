@@ -44,12 +44,10 @@ ps. Open the folder "GUI Complete File", make sure that all the contents of the 
     <li>
       <a href="#Introduction of the Project">Introduction of the Project</a>
     </li>
-    <li><a href="#Degrees of Freedom of Cartesian Manipulator">Degrees of Freedom of Cartesian Manipulator</a></li>
-    <li><a href="#Kinematic Diagram and D-H Frame assignment of cartesian manipulator description and computation">Kinematic Diagram and D-H Frame assignment of (assigned mechanical manipulator) description and computation.</a></li>
-    <li><a href="#D-H Parametric Table of cartesian manipulator description and computation">D-H Parametric Table of (assigned mechanical manipulator) description and computation.</a></li>
-    <li><a href="#HTM of a Cartesian Manipulator">HTM of a Cartesian Manipulator</a></li>
-    <li><a href="#Inverse Kinematics of cartesian manipulator description and computation">Inverse Kinematics of (assigned mechanical manipulator) description and computation.</a></li>
-    <li><a href="#Forward and Inverse Kinematics GUl calculator of cartesian manipulator description and computation">Forward and Inverse Kinematics GUl calculator of (assigned mechanical manipulator) description and computation.</a></li>
+    <li><a href="#Jacobian Matrix">Jacobian Matrix.</a></li>
+    <li><a href="#Differential Equations">Differential Equations.</a></li>
+    <li><a href="#Singularities">Singularities.</a></li>
+    <li><a href="#Path and Trajectory Planning Utilizing GUI">Path and Trajectory Planning Utilizing GUI.</a></li>
   </ol>
 </details>
 
@@ -103,8 +101,8 @@ Finally, Graphical User Interfaces (GUIs) can be created using tools like MATLAB
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<a name="Degrees of Freedom of Cartesian Manipulator"> </a>
-# III. Degrees of Freedom of Cartesian Manipulator
+<a name="Jacobian Matrix"> </a>
+# III. Jacobian Matrix
 <div align="justify">
   
 To solve a DOF of a specific manipulator the first thing to do is to determine whether it is a spatial with 6 DOF or planar with 3 DOF. The next step is to figure out the number of joints and moving links on the manipulator. After that, the calculation of the number of joint constraints in the given manipulator and determining if it is spatial or planar with the help of Grubler’s Criterion. Lastly, determine the type of manipulator based on the number of degrees of freedom. To calculate the degrees of freedom of the Cartesian Manipulator, use Grubler's Formula. This is an example of how to list things you need to use the software and how to install them.
@@ -113,8 +111,8 @@ To solve a DOF of a specific manipulator the first thing to do is to determine w
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<a name="Kinematic Diagram and D-H Frame assignment of cartesian manipulator description and computation"> </a>
-# IV. Kinematic Diagram and D-H Frame assignment of cartesian description and computation
+<a name="Differential Equations"> </a>
+# IV. Differential Equations
 <div align="justify">
     
  The Denavit-Hartenberg Notation, often known as D-H Notation, was developed in 1995 by Jacques Denavit and Richard Hartenberg to standardize coordinate frames for spatial links.
@@ -166,8 +164,8 @@ To solve a DOF of a specific manipulator the first thing to do is to determine w
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<a name="D-H Parametric Table of cartesian manipulator description and computation"> </a>
-# V. D-H Parametric Table of cartesian manipulator description and computation
+<a name="Singularities"> </a>
+# V. Singularities
 <div align="justify">
     
 The DH parametric table is like a blueprint for robotic arms. It helps engineers understand how the parts of the arm fit together and move, making it easier to design and control the robot. Using the Denavit Hartenberg Parameters we would be able to create a Dh parametric Table for a Cartesian Manipulator
@@ -209,8 +207,8 @@ The DH parametric table is like a blueprint for robotic arms. It helps engineers
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<a name="HTM of a Cartesian Manipulator"> </a>
-# VI. HTM of a Cartesian Manipulator
+<a name="Path and Trajectory Planning Utilizing GUI"> </a>
+# VI. Path and Trajectory Planning Utilizing GUI
 <div align="justify">
 
 In a treasure hunt analogy, a Hierarchical Task Manager (HTM) acts like a special code guiding a friend to hidden loot. No matter the starting point in the room, the HTM provides clear instructions in two parts:
@@ -283,73 +281,7 @@ substituting the angles gained from the theta, alpha, rotation and distance to t
 
 </div>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<a name="Inverse Kinematics of cartesian manipulator description and computation"> </a>
-# VII. Inverse Kinematics of cartesian manipulator description and computation
-
-<div align="justify">
-    
-Inverse kinematics is a method to figure out the joint adjustments (like bends in an elbow) needed to
-move an arm or leg (or a robot arm) to a desired position. It's the opposite of forward kinematics, 
-which predicts how the limb would move based on joint adjustments. 
-This is especially important in robotics and animation for creating precise and natural movements.
-
-In solving the Inverse Kinematics redraw the mechanical manipulator 
-showcasing the top view and front view of the manipulator in order to get the necessary frame needed which is the base frame.
-
-By analyzing the cartesian manipulator's front view. This view offered known values for two crucial elements of the 
-end effector's position vector: z04, signifying its z-coordinate, and x04, representing its horizontal x-coordinate. Due to the focus on the front view, the end effector's y-coordinate (y04) remained obscured.
-
-The objective was to determine the values of joint variables d2 and d3. The equation for x04 at the end effector was presented, 
-expressing it as the sum of link length a3 and joint variable d2 (x04 = a3 + d2). By rearranging this equation, a solution for d2 could be derived: 
-
-    d2 = x04 - a3.
-
-Proceeded to solve for the joint variable d3.  The equation for the end effector's z-coordinate (z04) was already established based on the provided diagram (z04 = a1 - a4 - d3). 
-To isolate d3 and determine its value, the equation needed to be rearranged. This involved swapping the positions of d3 and z04, resulting in a new equation: 
-
-    d3 = a1 - a4 - z04.
-
-To address the remaining joint variable, d1. To solve for d1, a redrawing of the cartesian manipulator from a top-view perspective was necessary. 
-This view revealed additional information: the y-coordinate of the end effector (y04) and the x and y axes.
-
-The key element for solving d1 was the y-coordinate of the third joint (y03). Analyzing the top view revealed that y04 could be 
-expressed as the sum of link length a2 and joint variable d1 (y04 = a2 + d1). By rearranging this equation, the solution for d1 could be obtained: 
-
-    d1 = y04 - a2.
-
-</div>
-
-<div align="center">
-    
-![ik](https://github.com/CyrsChvz/Robotics2_FK-IK_Group10_CartesianManipulator_2024/assets/157597327/18fd4168-7dc0-42a1-8d80-bd9052211b6a)
-
-</div>
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<a name="Forward and Inverse Kinematics GUl calculator of cartesian manipulator description and computation"> </a>
-# VIII. Forward and Inverse Kinematics GUl calculator of cartesian manipulator description and computation
-
-<div align="justify">
-    
-A Graphical User Interface (GUI) calculator that computes the forward kinematics (FK) and inverse kinematics (IK) of a cartesian manipulator may be found in the "Cartesian_GUI_Calculator" folder above with the "Group_10_CARTESIAN-Calculator.py" code.
-
-Forward Kinematics (FK)
-The f_k() function is utilized to calculate the end-effector position (X, Y, Z) of the manipulator from  the given set of joint variables (d1, d2, d3).
-
-Inverse Kinematics (IK)
-The i_k() function is utilized to calculate the joint variables (d1, d2, d3) by moving the end-effector to a desired position (X, Y, Z).
-
-</div>
-
-<div align="center">
-
-![calcu](https://github.com/CyrsChvz/Robotics2_FK-IK_Group10_CartesianManipulator_2024/assets/157597327/9c2d56db-303c-4c9c-b63a-ed44b02a4691)
-![uu](https://github.com/CyrsChvz/Robotics2_FK-IK_Group10_CartesianManipulator_2024/assets/157597327/4dc36e79-e177-4aae-bbb4-9a3c76f55e4e)
-
-</div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
