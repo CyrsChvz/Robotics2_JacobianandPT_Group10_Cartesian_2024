@@ -137,6 +137,10 @@ Imagine a robotic arm in mid-motion. Its joints are at specific positions (angle
     
 Imagine a robotic arm frozen mid-motion, unable to respond to certain joint commands. This perplexing phenomenon is called a singularity. It occurs when the arm adopts a specific configuration that disrupts the relationship between joint movements and the end-effector's behavior. Here's where the magic happens (or rather, doesn't): the Jacobian matrix, the translator between joint velocities and end-effector velocities, loses its effectiveness. In simpler terms, the matrix can no longer accurately predict how the end-effector will respond to certain joint motions. This "missing motion" can manifest in several ways:
 
+-Limited Maneuverability: The arm might struggle to move in specific directions, even though individual joints are functioning correctly.
+-Erratic Control: Joint commands might produce unexpected or jerky movements at the end-effector.
+-Potential Damage: Operating in a singularity can put excessive stress on the arm's motors and joints, leading to wear and tear.
+
 </div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
