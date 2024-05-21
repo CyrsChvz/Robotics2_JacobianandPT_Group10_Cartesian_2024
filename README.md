@@ -121,22 +121,7 @@ This matrix takes a vector representing the velocities of each joint and transfo
 <a name="Differential Equations"> </a>
 # IV. Differential Equations
 <div align="justify">
-    
- The Denavit-Hartenberg Notation, often known as D-H Notation, was developed in 1995 by Jacques Denavit and Richard Hartenberg to standardize coordinate frames for spatial links.
 
- To solve the forward kinematics of a mechanical manipulator we will use the DH Notation (Denavit-Hartenberg Notation)
- The D-H notation offers a systematic approach to express the geometric configuration of robotic systems, making kinematic analysis and modeling easier.
- It is frequently used in robotics, particularly industrial robot systems, and robot arms with manipulators.
- In DH notation, there are some preliminary rules and main rules that define how to assign coordinate frames and determine the parameters for each joint.
-
-
-
-
-
-
-
-
- ![rgb](https://github.com/CyrsChvz/Robotics2_FK-IK_Group10_CartesianManipulator_2024/assets/157597327/81ea8b50-e43f-41f6-b446-9cb2dab1c1d4)
  
     
     
