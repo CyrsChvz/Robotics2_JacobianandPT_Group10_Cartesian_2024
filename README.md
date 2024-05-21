@@ -124,36 +124,10 @@ This matrix takes a vector representing the velocities of each joint and transfo
 
 Imagine a robotic arm in mid-motion. Its joints are at specific positions (angles) and moving at certain velocities. But how does this current state - a combination of positions and velocities - determine the arm's future movement? This is where differential equations come into play.
  These equations act like a set of instructions that describe the dynamic relationship between the manipulator's state (joint positions and velocities) and how those states change over time. They're like a recipe for predicting the robot's future "dance." By solving these equations, we can essentially simulate the arm's motion, understanding how its positions and velocities will evolve over time.
+
+ This simulation capability is invaluable for several reasons. First, it allows us to predict the manipulator's trajectory, ensuring it reaches its target destination precisely. Second, it helps us identify potential problems like collisions or reaching limitations in joint movement. Finally, by simulating different scenarios beforehand, we can refine control strategies and optimize the arm's performance for various tasks.
     
     
-    
-
-
-
-    
-
-## D-H Frame Rules
-
-### NOTE: THE COUNTING OF FRAMES STARTS FROM 0 (FROM THE FORMULA N-1)
-    
-    
-    
-    
-![zaxis](https://github.com/CyrsChvz/Robotics2_FK-IK_Group10_CartesianManipulator_2024/assets/157597327/4b7ff0d5-2072-4309-8dda-53d5e8b4b87c)
-
-    Rule 2: The X axis must be perpendicular both to its own Z axis, and the 
-    Z axis of the frame before it. (Labels starts from X0)
-![xaxis](https://github.com/CyrsChvz/Robotics2_FK-IK_Group10_CartesianManipulator_2024/assets/157597327/87e45ec4-e768-494c-834f-1bfa41e29ffb)
-
-    Rule 3: Each X-axis must intersect the Z-axis of the frame before it. 
-    Rules for complying with Rule 3: Rotate the axis until it hits the other.
-    Or translate the axis until it hits the other.
-![xaxis](https://github.com/CyrsChvz/Robotics2_FK-IK_Group10_CartesianManipulator_2024/assets/157597327/87e45ec4-e768-494c-834f-1bfa41e29ffb)
-
-    Rule 4: All frames must follow the right-hand rule (Labels starts from Y0)
-   ![dh](https://github.com/CyrsChvz/Robotics2_FK-IK_Group10_CartesianManipulator_2024/assets/157597327/16d5305d-c432-452e-a01e-d1beb04f42d7)
- 
-</div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
