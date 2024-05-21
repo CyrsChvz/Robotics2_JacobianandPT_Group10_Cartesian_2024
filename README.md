@@ -141,6 +141,8 @@ Imagine a robotic arm frozen mid-motion, unable to respond to certain joint comm
 -Erratic Control: Joint commands might produce unexpected or jerky movements at the end-effector.
 -Potential Damage: Operating in a singularity can put excessive stress on the arm's motors and joints, leading to wear and tear.
 
+By understanding singularities and how they affect the Jacobian matrix, we can design motion paths that avoid these problematic configurations. This ensures the robotic arm operates smoothly, efficiently, and most importantly, safely.
+
 </div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
