@@ -123,7 +123,7 @@ To solve a DOF of a specific manipulator the first thing to do is to determine w
  It is frequently used in robotics, particularly industrial robot systems, and robot arms with manipulators.
  In DH notation, there are some preliminary rules and main rules that define how to assign coordinate frames and determine the parameters for each joint.
 
-## D-H Frame Preliminary Rules
+
 
 ### Rule 1 Decide first the 3 views you want to project on your isometric drawing
 
