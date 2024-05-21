@@ -125,7 +125,7 @@ To solve a DOF of a specific manipulator the first thing to do is to determine w
 
 
 
-### Rule 1 Decide first the 3 views you want to project on your isometric drawing
+
 
 ### Rule 2: Identify the center of your frames
 
