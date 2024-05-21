@@ -44,6 +44,11 @@ ps. Open the folder "GUI Complete File", make sure that all the contents of the 
     <li>
       <a href="#Introduction of the Project">Introduction of the Project</a>
     </li>
+
+<li><a href="#Jacobian Matrix">Jacobian Matrix.</a></li>
+    <li><a href="#Differential Equations">Differential Equations.</a></li>
+    <li><a href="#Singularities">Singularities.</a></li>
+    <li><a href="#Path and Trajectory Planning Utilizing GUI">Path and Trajectory Planning Utilizing GUI.</a></li>
   
   </ol>
 </details>
