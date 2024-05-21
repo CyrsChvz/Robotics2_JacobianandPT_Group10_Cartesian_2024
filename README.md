@@ -106,8 +106,9 @@ Finally, Graphical User Interfaces (GUIs) can be created using tools like MATLAB
 # III. Jacobian Matrix
 <div align="justify">
   
-To solve a DOF of a specific manipulator the first thing to do is to determine whether it is a spatial with 6 DOF or planar with 3 DOF. The next step is to figure out the number of joints and moving links on the manipulator. After that, the calculation of the number of joint constraints in the given manipulator and determining if it is spatial or planar with the help of Grubler’s Criterion. Lastly, determine the type of manipulator based on the number of degrees of freedom. To calculate the degrees of freedom of the Cartesian Manipulator, use Grubler's Formula. This is an example of how to list things you need to use the software and how to install them.
+Coordinating a robotic arm with multiple joints requires understanding the relationship between how fast each joint moves (joint velocities) and the overall movement of the gripper or tool at the end (end-effector velocities). The Jacobian Matrix acts as a translator between these two worlds: joint space and Cartesian space (real-world space).
 
+This matrix takes a vector representing the velocities of each joint and transforms it into a vector representing the end-effector's velocities (both linear, like speed along an axis, and angular, like rotation). Each element in the Jacobian Matrix reflects how a specific joint's speed contributes to a particular component of the end-effector's movement. This knowledge is crucial for several reasons:
 </div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
