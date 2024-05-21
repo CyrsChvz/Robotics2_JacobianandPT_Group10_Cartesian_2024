@@ -134,7 +134,7 @@ To solve a DOF of a specific manipulator the first thing to do is to determine w
  
     Blue- z-axis
     Red- x-axis
-    Green- y-axis
+    
 
 
 ### Rule 4: Remember to make the arrows of the z and x axes easy to see in future computation
