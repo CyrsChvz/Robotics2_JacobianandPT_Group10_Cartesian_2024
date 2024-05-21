@@ -144,7 +144,7 @@ To solve a DOF of a specific manipulator the first thing to do is to determine w
 
 ### NOTE: THE COUNTING OF FRAMES STARTS FROM 0 (FROM THE FORMULA N-1)
     Coding
-    Rule 1: The Z axis must be the axis of rotation for a revolute/twisting, 
+    
     
     
 ![zaxis](https://github.com/CyrsChvz/Robotics2_FK-IK_Group10_CartesianManipulator_2024/assets/157597327/4b7ff0d5-2072-4309-8dda-53d5e8b4b87c)
