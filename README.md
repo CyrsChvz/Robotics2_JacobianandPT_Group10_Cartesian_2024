@@ -118,9 +118,7 @@ This matrix takes a vector representing the velocities of each joint and transfo
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<a name="Differential Equations"> </a>
-# IV. Differential Equations
-<div align="justify">
+
 
 Imagine a robotic arm in mid-motion. Its joints are at specific positions (angles) and moving at certain velocities. But how does this current state - a combination of positions and velocities - determine the arm's future movement? This is where differential equations come into play.
  These equations act like a set of instructions that describe the dynamic relationship between the manipulator's state (joint positions and velocities) and how those states change over time. They're like a recipe for predicting the robot's future "dance." By solving these equations, we can essentially simulate the arm's motion, understanding how its positions and velocities will evolve over time.
