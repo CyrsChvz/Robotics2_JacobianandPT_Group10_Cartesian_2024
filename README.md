@@ -155,6 +155,8 @@ Path Planning: Think of it as a map for the robot's end-effector, charting a saf
 
 Trajectory Planning: This adds the timing element, specifying speeds and accelerations at each point along the path. Just like a well-choreographed dance, it ensures smooth and controlled movements.
 
+Bridging the Gap: GUIs for Intuitive Control
+Imagine a user interface where you control the robot with simple sliders. GUIs built with tools like MATLAB or Python allow visualization of the robot's movements in real-time. Users can manipulate joints through sliders, with the path or trajectory dynamically updating based on their input. This user-friendly platform simplifies robot control and fosters better human-robot interaction.
 
 </div>
 
