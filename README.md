@@ -138,7 +138,7 @@ To solve a DOF of a specific manipulator the first thing to do is to determine w
 
 
 
-    The y-axis is less important than the x and z axes
+    
 
 ## D-H Frame Rules
 
