@@ -127,7 +127,7 @@ To solve a DOF of a specific manipulator the first thing to do is to determine w
 
 
 
-### Rule 2: Identify the center of your frames
+
 
 ### Rule 3 Then draw your color-coded arrows based on your decided 3 views.
  ![rgb](https://github.com/CyrsChvz/Robotics2_FK-IK_Group10_CartesianManipulator_2024/assets/157597327/81ea8b50-e43f-41f6-b446-9cb2dab1c1d4)
