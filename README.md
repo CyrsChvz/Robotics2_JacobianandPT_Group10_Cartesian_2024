@@ -135,40 +135,7 @@ Imagine a robotic arm in mid-motion. Its joints are at specific positions (angle
 # V. Singularities
 <div align="justify">
     
-The DH parametric table is like a blueprint for robotic arms. It helps engineers understand how the parts of the arm fit together and move, making it easier to design and control the robot. Using the Denavit Hartenberg Parameters we would be able to create a Dh parametric Table for a Cartesian Manipulator
-
-</div>
-
-### The Denavit Hartenberg Parameters as it follows :
-
-<div align="left">
-
-    Theta (θ) - Rotation around Zn-1 that is required to get Xn-1 to match Xn, with the joint 
-    variable, if joint is revolute/twisting jont.
-    
-    Alpha (α) - Rotation around Xn that is required to get Zn-1 to match Zn.
-    
-    d - The distance from the origin of n-1 and n frames along the Zn-1 direction, 
-    with a joint variable if joint is prismatic.
-    
-    r - The distance from the origin of n-1 and n frames along the Xn direction.
-
-</div>
-
-<div align="justify">
-    
-### In filling up the Dh parametric table of the cartesian manipulator  start with filling out the row of theta, then alpha, after that is the column of r and lastly the columns of d.
-
-</div>
-
-<div align="center">
-
-    |n   |   θ   |    ∝   |  r  |     d     |
-    |1   |   0   |   270  |  0  |     a1    |
-    |2   |  270  |   270  |  0  |   a2+d1   |
-    |3   |  90   |   270  |  0  |   a3+d2   |
-    |4   |   0   |    0   |  0  |   a4+d3   |
-
+Imagine a robotic arm frozen mid-motion, unable to respond to certain joint commands. This perplexing phenomenon is called a singularity. It occurs when the arm adopts a specific configuration that disrupts the relationship between joint movements and the end-effector's behavior. Here's where the magic happens (or rather, doesn't): the Jacobian matrix, the translator between joint velocities and end-effector velocities, loses its effectiveness. In simpler terms, the matrix can no longer accurately predict how the end-effector will respond to certain joint motions. This "missing motion" can manifest in several ways:
 
 </div>
 
