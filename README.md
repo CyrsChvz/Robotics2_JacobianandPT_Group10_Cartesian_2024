@@ -132,8 +132,8 @@ To solve a DOF of a specific manipulator the first thing to do is to determine w
 
  ![rgb](https://github.com/CyrsChvz/Robotics2_FK-IK_Group10_CartesianManipulator_2024/assets/157597327/81ea8b50-e43f-41f6-b446-9cb2dab1c1d4)
  
-    Blue- z-axis
-    Red- x-axis
+    
+    
     
 
 
