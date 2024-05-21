@@ -109,6 +109,8 @@ Finally, Graphical User Interfaces (GUIs) can be created using tools like MATLAB
 Coordinating a robotic arm with multiple joints requires understanding the relationship between how fast each joint moves (joint velocities) and the overall movement of the gripper or tool at the end (end-effector velocities). The Jacobian Matrix acts as a translator between these two worlds: joint space and Cartesian space (real-world space).
 
 This matrix takes a vector representing the velocities of each joint and transforms it into a vector representing the end-effector's velocities (both linear, like speed along an axis, and angular, like rotation). Each element in the Jacobian Matrix reflects how a specific joint's speed contributes to a particular component of the end-effector's movement. This knowledge is crucial for several reasons:
+
+-This matrix takes a vector representing the velocities of each joint and transforms it into a vector representing the end-effector's velocities (both linear, like speed along an axis, and angular, like rotation). Each element in the Jacobian Matrix reflects how a specific joint's speed contributes to a particular component of the end-effector's movement. This knowledge is crucial for several reasons:
 </div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
