@@ -153,6 +153,8 @@ By understanding singularities and how they affect the Jacobian matrix, we can d
 
 Path Planning: Think of it as a map for the robot's end-effector, charting a safe and efficient course around obstacles while respecting the robot's workspace boundaries.
 
+Trajectory Planning: This adds the timing element, specifying speeds and accelerations at each point along the path. Just like a well-choreographed dance, it ensures smooth and controlled movements.
+
 
 </div>
 
