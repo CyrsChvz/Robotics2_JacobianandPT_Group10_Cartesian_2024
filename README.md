@@ -61,27 +61,26 @@ This project investigates the basic ideas and real-world uses of a Cartesian man
 
 </div>
 
-<a href="#Degrees of Freedom of Cartesian Manipulator">`Explanation of DOF`</a>
+<a href="#Jacobian Matrix">`Jacobian Matrix`</a>
 
 </div>
 <div>
     
-<a href="#Kinematic Diagram and D-H Frame assignment of cartesian manipulator description and computation">`Utilization of D-H notation`</a>    
+<a href="#Differential Equations">`Differential Equations`</a>    
 
 </div>
 <div>
 
-<a href="#D-H Parametric Table of cartesian manipulator description and computation">`Establishment of the D-H parametric table`</a>  
+<a href="#Singularities">`Singularities`</a>  
  
 </div>
 <div>
 
-<a href="#HTM of a Cartesian Manipulator">`Defining the transformation matrices`</a>  
+<a href="#Path and Trajectory Planning Utilizing GUI">`Path and Trajectory Planning Utilizing GUI`</a>  
  
 </div>
 <div>
 
-<a href="#Inverse Kinematics of cartesian manipulator description and computation">`Computing inverse kinematics`</a>  
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
