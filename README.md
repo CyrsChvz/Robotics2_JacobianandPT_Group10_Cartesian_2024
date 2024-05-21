@@ -143,7 +143,7 @@ To solve a DOF of a specific manipulator the first thing to do is to determine w
 ## D-H Frame Rules
 
 ### NOTE: THE COUNTING OF FRAMES STARTS FROM 0 (FROM THE FORMULA N-1)
-    Coding
+    
     
     
     
