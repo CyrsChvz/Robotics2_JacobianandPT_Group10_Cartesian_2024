@@ -63,7 +63,25 @@ This project investigates the basic ideas and real-world uses of a Cartesian man
 
 </div>
 
+<a href="#Jacobian Matrix">`Jacobian Matrix`</a>
 
+</div>
+<div>
+    
+<a href="#Differential Equations">`Differential Equations`</a>    
+
+</div>
+<div>
+
+<a href="#Singularities">`Singularities`</a>  
+ 
+</div>
+<div>
+
+<a href="#Path and Trajectory Planning Utilizing GUI">`Path and Trajectory Planning Utilizing GUI`</a>  
+ 
+</div>
+<div>
 
 
 
