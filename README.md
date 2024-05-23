@@ -26,7 +26,7 @@ ps. Open the folder "GUI Complete File", and make sure that all the contents of 
   <p align="center">
     Project_Description
     <br />
-    <a href="https://drive.google.com/file/d/1h_7uCnrbAoJrcapAplV_65SiYqNWTWeF/view?usp=sharing"><strong> Watch a video encompassing the contents of a Cartesian Manipulator »</strong></a>
+    <a href="[https://drive.google.com/file/d/1h_7uCnrbAoJrcapAplV_65SiYqNWTWeF/view?usp=sharing](https://www.youtube.com/playlist?list=PLGeEkWaaC80DszFZtB5YO1gE0G5qcd7B1)"><strong> Watch a video about the stated topics »</strong></a>
     <br />
     <br />
 
