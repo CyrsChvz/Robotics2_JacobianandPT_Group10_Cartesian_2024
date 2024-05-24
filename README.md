@@ -21,7 +21,7 @@ ps. Open the folder "GUI Complete File", and make sure that all the contents of 
 <div align="center">
     <img alt="large" width="560" height="400" src="https://github.com/CyrsChvz/Robotics2_FK-IK_Group10_CartesianManipulator_2024/assets/157597327/bb7dc30c-e405-4a04-a016-4c8c5963a84f"
     <a href="https://github.com/cyrschavz/Robotics2_FK-IK_Group10_CartesianManipulator_2024">
-<h3 align="center">BreadcrumbsRobotics2_JacobianandPT_Group10_Cartesian_2024</h3>
+<h3 align="center">Robotics2_JacobianandPT_Group10_Cartesian_2024</h3>
 
   <p align="center">
     Project_Description
@@ -158,6 +158,8 @@ Trajectory Planning: This adds the timing element, specifying speeds and acceler
 Bridging the Gap: GUIs for Intuitive Control
 Imagine a user interface where you control the robot with simple sliders. GUIs built with tools like MATLAB or Python allow visualization of the robot's movements in real-time. Users can manipulate joints through sliders, with the path or trajectory dynamically updating based on their input. This user-friendly platform simplifies robot control and fosters better human-robot interaction.
 
+![Screenshot from 2024-05-24 10-11-10](https://github.com/CyrsChvz/Robotics2_JacobianandPT_Group10_Cartesian_2024/assets/157597327/cd932ee5-edf4-4c65-8fb7-c4fed28e2b71)
+
 </div>
 
 
@@ -167,6 +169,22 @@ Imagine a user interface where you control the robot with simple sliders. GUIs b
 
 # |References|
 
+<div align="justify">
+    
+> "Robotics, Modeling, Planning and Control" by Bruno Siciliano, Oussama Khatib, Luigi Villani (2019)
 
+> "The Ultimate Guide to Jacobian Matrices for Robotics" by Automatic Addison (https://automaticaddison.com/the-ultimate-guide-to-jacobian-matrices-for-robotics/)
+
+> "Robot's path control model based on the Jacobian matrix" by ResearchGate (https://www.researchgate.net/publication/2506606_Path_Jacobians_Theory_and_Applications)
+
+> "Planning Algorithms" by Steven M. LaValle (2006)
+
+> "Robotics 2 U1 (Kinematics) S4 (Path Planning) P1 (Using the Jacobian)" by YouTube (https://m.youtube.com/watch?v=Mkr2jYcW8OE)
+
+> Robotics Toolbox (MATLAB): This open-source toolbox provides functions for robot kinematics, dynamics, and control, including calculating the Jacobian matrix for various manipulators. It can be a valuable tool for experimentation and simulation (https://petercorke.com/toolboxes/robotics-toolbox/)
+
+> Open Source Robotics (ROS): This open-source middleware platform offers libraries and tools for robot motion planning and control. It can be integrated with simulation environments and hardware platforms for real-world robot applications (https://www.ros.org/)
+
+</div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
