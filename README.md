@@ -1,6 +1,6 @@
 <a name="readme-top"> </a>
 ## Please download the whole "GUI Complete File" folder and its content for the program to run properly in Python, Thank you!
-ps. Open the folder "GUI Complete File", and make sure that all the contents of the "GUI Complete File" are downloaded and compiled in the same folder for the program to run properly. In addition!!! please refer to the "blue texts" for easier travel throughout the readme file. Again, thank you!
+ps. While in vscode, use open folder **_only for the "CARTESIAN"_** folder inside the "GUI Complete File" folder you have downloaded, all files should be downloaded and compiled in the same folder for the program to run properly. In addition!!! please refer to the "blue texts" for easier travel throughout the readme file. Again, thank you!
 
 <div align="center">
     
